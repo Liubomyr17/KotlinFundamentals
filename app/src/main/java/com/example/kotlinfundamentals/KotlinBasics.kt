@@ -14,7 +14,23 @@ fun main() {
     val myFloat: Float = 13.37F // 32 bits
     val myDouble = 3.14151236987 // 64 bits
 
-    println("Hello " + myName)
+    // Booleans
+    var isSunny: Boolean = true
+    isSunny = false
+
+    // Characters
+    val letterChar = 'A'
+    val digitChar = '$'
+
+    // Strings
+    val myStr = "Hello World"
+    val firstCharInStr = myStr[0]
+    val lastCharInString = myStr[myStr.length - 1]
+
+    println("First character + $firstCharInStr")
+    println("First character + $lastCharInString")
+
+
 
 
 }
