@@ -22,4 +22,13 @@ fun main() {
         println("You are too young")
     }
 
+    var name = "Leo"
+    if (name == "Leo") {
+        println("Welcome home, Leo")
+} else {
+  println("Who are you?")
+}
+    var isRainy = true
+    if (isRainy)
+        println("It's rainy")
 }
