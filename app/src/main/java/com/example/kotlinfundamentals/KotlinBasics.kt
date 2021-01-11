@@ -1,34 +1,13 @@
 package com.example.kotlinfundamentals
 
 fun main() {
-    var heightPerson1 = 170
-    var heightPerson2 = 189
-
-    if (heightPerson1 > heightPerson2) {
-        println("use raw force")
-    } else if (heightPerson1 == heightPerson2) {
-        println("use 1337")
-    } else {
-        println("use technique")
+    var month = 3
+    when (month) {
+        in 3..5 -> println("Spring")
+        in 6..8 -> println("Summer")
+        in 9..11 -> println("Fall")
+        12, 1, 2 -> println("Winter")
+        else -> { println("Nothing special")
     }
-    var age = 17
-    if (age >= 21) {
-        println("Now you may drink in the US")
-    } else if (age >= 18) {
-        println("You may vote now")
-    } else if (age >= 16) {
-        println("You may drive now")
-    } else {
-        println("You are too young")
     }
-
-    var name = "Leo"
-    if (name == "Leo") {
-        println("Welcome home, Leo")
-} else {
-  println("Who are you?")
-}
-    var isRainy = true
-    if (isRainy)
-        println("It's rainy")
-}
+  }
